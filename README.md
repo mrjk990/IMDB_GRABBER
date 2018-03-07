@@ -4,9 +4,11 @@
 # USAGE
 ```php
 <?php
-include('imdbScraper.php');
+include('imdbGrabber.php');
 //Start the class
-$imdb = new imdbScraper('tt0081059');
+$imdb = new imdbGrabber();
+//Get movie data
+$imdb->get('https://www.imdb.com/title/tt0081059/');
 //Check if no errors
 if (!$imdb->hasError()) {
   echo $imdb->dataJson();
