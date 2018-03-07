@@ -25,6 +25,7 @@ if (!$imdb->hasError()) {
     "description": "In the Fascist Italy Pre-World War II of Benito Mussolini, the cruel General Rodolfo Graziani is directly assigned by Il Duce to fight in the colonial war in Libya to vanquish the Arab nation. However, his troops are frequently defeated by the national leader Omar Mukhtar and his army of Bedouins. But the Butcher of Ethiopia and Libya uses a dirty war against the natives, slaughtering children, women and aged people, to subdue Mukhtar.",
     "year": "1980",
     "release_date": "1981-05-16",
+    "status": "released",
     "rated": "PG",
     "rating": "8.4",
     "votes": "11,439",
