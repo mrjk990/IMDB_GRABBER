@@ -56,6 +56,7 @@ class imdbGrabber
 		'description'	=> null,
 		'year'			=> null,
 		'release_date'	=> null,
+		'status'		=> 'unreleased',
 		'rated' 		=> 'PG',
 		'rating' 		=> null,
 		'votes' 		=> null,
@@ -183,6 +184,7 @@ class imdbGrabber
 	public function setReleaseDate()
 	{
 		if (preg_match('/<meta itemprop="datePublished" content="([^"]+)" \/>/s', $this->html, $matched)) {
+			$this->data['status'] = 'released';
 			$this->data['release_date'] = trim($matched[1]);
 		}
 	}
