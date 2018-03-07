@@ -4,7 +4,7 @@
 ## How to Use
 ```php
 <?php
-include('imdbGrabber.php');
+require_once 'imdbGrabber.php';
 //Start the class
 $imdb = new imdbGrabber();
 //Get movie data
