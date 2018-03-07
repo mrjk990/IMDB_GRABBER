@@ -1,6 +1,9 @@
 # PHP IMDB GRABBER CLASS
  This php class allows you to grab movie data from imdb.com
  
+## Note
+this class for movies only
+ 
 ## How to Use
 ```php
 <?php
