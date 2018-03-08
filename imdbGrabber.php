@@ -10,8 +10,8 @@
  *
  * @author  Mahmoud j.k <mrjk990@gmail.com
  * @license https://opensource.org/licenses/MIT The MIT License
- * @link    https://github.com/mrjk990/imdb_scraper GitHub Repository
- * @version 1.0.0
+ * @link    https://github.com/mrjk990/IMDB_GRABBER GitHub Repository
+ * @version 1.0.1
  *
 */
  
