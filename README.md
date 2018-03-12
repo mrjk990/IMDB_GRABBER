@@ -68,7 +68,8 @@ if (!$imdb->hasError()) {
     "director": [
         "Moustapha Akkad"
     ],
-    "trailer": "https:\/\/www.youtube.com\/watch?v=Rsp5beaSgzw"
+    "trailer": "https:\/\/www.youtube.com\/watch?v=Rsp5beaSgzw",
+    "trailer_embed": "https:\/\/www.youtube.com\/embed\/Rsp5beaSgzw"
 }
 ```
 
