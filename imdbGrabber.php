@@ -73,6 +73,7 @@ class imdbGrabber
 		'writer' 		=> [],
 		'director' 		=> [],
 		'trailer' 		=> null,
+		'trailer_embed'		=> null,
 	);
 
 	public function __construct()
@@ -285,6 +286,7 @@ class imdbGrabber
 			if(preg_match_all('/"\/watch\?v=([^"]+)"/ms', $this->html, $matched)) {
 				// get first match 
 				$this->data['trailer'] = "https://www.youtube.com/watch?v=".trim($matched[1][0]);
+				$this->data['trailer_embed'] = "https://www.youtube.com/embed/".trim($matched[1][0]);
 			}
 		}
 	}
