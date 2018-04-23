@@ -25,7 +25,7 @@ class imdbGrabber
 	/** 
 	 * @var string / imdb url
 	*/
-	public $imdb = 'https:///www.imdb.com/title';
+	public $imdb = 'https://www.imdb.com/title';
 	
 	/** 
 	 * @var bool / error in grabbing
