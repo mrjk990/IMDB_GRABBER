@@ -72,4 +72,23 @@ if (!$imdb->hasError()) {
     "trailer_embed": "https:\/\/www.youtube.com\/embed\/Rsp5beaSgzw"
 }
 ```
+```php
+<?php
+require_once 'imdbGrabber.php';
+//Start the class
+$imdb = new imdbGrabber();
+//Get movie data
+$imdb->get('https://www.imdb.com/title/tt0081059/');
+//Check if no errors
+if (!$imdb->hasError()) {
+   $data = json_encode($imdb->data);
+   echo $data->title;
+} else {
+  echo $imdb->getError();
+}
+?>
+```
 
+```
+Lion of the Desert
+```
