@@ -72,6 +72,10 @@ if (!$imdb->hasError()) {
     "trailer_embed": "https:\/\/www.youtube.com\/embed\/Rsp5beaSgzw"
 }
 ```
+
+
+
+
 ```php
 <?php
 require_once 'imdbGrabber.php';
@@ -89,6 +93,7 @@ if (!$imdb->hasError()) {
 ?>
 ```
 
+# RESULT
 ```
 Lion of the Desert
 ```
