@@ -141,7 +141,7 @@ class imdbGrabber
 	
 	public function setId()
 	{
-		if (preg_match('/<meta property="pageId" content="(tt[0-9]+)" \/>/s', $this->html, $matched)) {
+		if (preg_match('/<meta property=\'og:title\' content=\"(.*?)\s\([0-9]{4}\).*?\"\s\/>/s', $this->html, $matched)) {
 			$this->data['id'] = $matched[1];
 		}
 	}
